@@ -26,3 +26,5 @@ Flashing
 when flashing, you have to configure the TTY connecting your computer to the watch.  Configuration and settings will vary based on your hardware and operating system.  For instance in Linux, it might be connected on `/dev/ttyUSB0` and you may have ensure your user is added to the `tty` or `dialout` group with (which will require the user to log out and back in to taket effect): 
 
     sudo usermod -a -G tty <USERNAME>
+
+original deauth software: https://github.com/SpacehuhnTech/esp8266_deauther  
